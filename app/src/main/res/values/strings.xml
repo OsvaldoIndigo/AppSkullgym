@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="label_username">Telefono / Correo</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="SkullGym">SkullGym</string>
+</resources>

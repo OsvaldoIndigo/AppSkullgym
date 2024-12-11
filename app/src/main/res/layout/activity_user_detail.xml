@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clientDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hd_wallpaper_black_n_blue_abstract_android_background_thumbnail"
+    android:padding="30dp"
+    tools:context=".UserDetailActivity">
+
+    <!-- Contenedor principal -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardContainer"
+        android:layout_width="244dp"
+        android:layout_height="287dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/skulllogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Información de ID -->
+            <TextView
+                android:id="@+id/idClientDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Tu ID: 12345"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" 
+                />
+
+            <!-- Información de Nombre -->
+            <TextView
+                android:id="@+id/nameDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Nombre: Juan Pérez"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Teléfono -->
+            <TextView
+                android:id="@+id/TelClientDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Número Telefónico: 555-1234"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Correo Electrónico -->
+            <TextView
+                android:id="@+id/emailClientDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Correo Electrónico: juan.perez@example.com"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Cumpleaños -->
+            <TextView
+                android:id="@+id/birthdateClientDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Cumpleaños: 01/01/1990"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Membresía -->
+            <TextView
+                android:id="@+id/typeMeberClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Membresía: Premium"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Fecha de vencimiento -->
+            <TextView
+                android:id="@+id/timeMebership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Vence el: 31/12/2024"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Tipo de Entrenamiento -->
+            <TextView
+                android:id="@+id/typerutine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Tipo de Entrenamiento: Fuerza"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/skulllogo"
+        android:layout_width="133dp"
+        android:layout_height="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardContainer"
+        app:srcCompat="@drawable/skull2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
