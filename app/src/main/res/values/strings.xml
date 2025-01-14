@@ -3,4 +3,20 @@
     <string name="label_username">Telefono / Correo</string>
     <string name="iniciar_sesion">Iniciar Sesion</string>
     <string name="SkullGym">SkullGym</string>
+
+
+    <string-array name="membership_types">
+        <item>Membresía</item>
+        <item>Día</item>
+        <item>Semana</item>
+        <item>Mensual</item>
+        <item>Anual</item>
+    </string-array>
+
+    <string-array name="exercise_plans">
+        <item>Dínamica</item>
+        <item>Entrenamiento Maquinas</item>
+        <item>Yoga</item>
+        <item>Zumba</item>
+    </string-array>
 </resources>

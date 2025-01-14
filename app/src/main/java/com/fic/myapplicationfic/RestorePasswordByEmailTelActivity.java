@@ -58,7 +58,7 @@ public class RestorePasswordByEmailTelActivity extends AppCompatActivity
     private boolean isValidEmailOrPhone(String emailOrPhone) {
         // Definir valores de prueba para simulación
         String testEmail = "prueba@gmail.com";
-        String testPhone = "1234";
+        String testPhone = "6675250066";
 
         return emailOrPhone.equals(testEmail) || emailOrPhone.equals(testPhone);
     }
